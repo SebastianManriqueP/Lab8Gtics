@@ -1,9 +1,7 @@
-package com.example.lab8gtics.repository;
+package com.example.lab8gtics.Repository;
 
-import com.example.lab8gtics.entity.Reserva;
+import com.example.lab8gtics.Entity.Reserva;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
-@Repository
-public interface ReservaRepository extends JpaRepository<Reserva, Integer> {
+public interface ReservaRepository extends JpaRepository<Reserva,Integer> {
 }
